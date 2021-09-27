@@ -11,7 +11,7 @@ pipeline {
 
         stage('run flask app') {
           steps {
-            sh 'python3 dashf.py'
+            sh '/usr/local/bin/python3 /Users/sigmoid/Desktop/main/advan/sample_flask/dashf.py'
           }
         }
 

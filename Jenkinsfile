@@ -11,8 +11,7 @@ pipeline {
 
         stage('run flask app') {
           steps {
-            sh '''sudo pip3 install -r requirements.txt
-python3 dashf.py'''
+            sh 'python3 dashf.py'
           }
         }
 
